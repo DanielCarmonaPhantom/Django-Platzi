@@ -12,6 +12,7 @@ Ejecturar para crear nuestros archivos venv.
 ```Bash
 python -m venv venv
 ```
+## Crear entorno virtual
 
 Si estas en windows:
 ```Bash
