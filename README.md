@@ -24,7 +24,7 @@ python -m venv venv
 
 Si estas en windows:
 ```Bash
-.\venv\Scripts\activate
+.\venv\Scripts\activate.bat
 ```
 
 Para Linux\Mac:
