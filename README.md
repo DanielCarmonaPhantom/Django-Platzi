@@ -55,3 +55,12 @@ project/
  |    +-- manage.py
  +-- venv/                  <-- carpeta del entorno virtual
 ```
+### Levantar servidor
+Entramos a nuestra carpeta `myproject` y utilizaremos el comando: 
+```Bash
+python manage.py runserver
+```
+
+Esto nos dara como resultado la url de nuestro servidor local que se desplego en el puerto 8000.
+
+Para acceder solo escribe en tu navegador <a href='http://127.0.0.1:8000' target='_blank'>http://127.0.0.1:8000</a>
