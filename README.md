@@ -8,11 +8,12 @@ Crear una carpeta
 mkdir app
 ```
 
+### Crear entorno virtual
+
 Ejecturar para crear nuestros archivos venv. 
 ```Bash
 python -m venv venv
 ```
-## Crear entorno virtual
 
 Si estas en windows:
 ```Bash
