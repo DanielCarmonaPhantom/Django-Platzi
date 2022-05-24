@@ -10,7 +10,7 @@ mkdir app
 
 ### Crear entorno virtual
 
-Crear una carpeta
+Instalaremos virtualenv
 ```Bash
 pip install virtualenv
 ```
