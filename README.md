@@ -15,6 +15,8 @@ Ejecturar para crear nuestros archivos venv.
 python -m venv venv
 ```
 
+### Activar entorno virtual
+
 Si estas en windows:
 ```Bash
 .\venv\Scripts\activate
@@ -23,4 +25,10 @@ Si estas en windows:
 Para Linux\Mac:
 ```Bash
 source venv/bin/activate
+```
+### Instalar Django
+
+Utilizaremos pip
+```Bash
+pip install django
 ```
