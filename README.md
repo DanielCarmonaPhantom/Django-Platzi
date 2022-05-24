@@ -44,7 +44,7 @@ django-admin startproject myproject
 ```
 
 Esto creara un proyecto de django que te creara varios archivos.
-
+```
 project/                  
  |-- myproject/             <-- carpeta del Proyecto django
  |    |-- myproject/
@@ -54,3 +54,4 @@ project/
  |    |    |-- wsgi.py
  |    +-- manage.py
  +-- venv/                  <-- carpeta del entorno virtual
+```
