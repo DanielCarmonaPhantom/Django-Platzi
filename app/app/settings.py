@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 ]
 
 LOCAL_APPS = [
-    'polls'
+    'polls.apps.PollsConfig'
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + LOCAL_APPS
