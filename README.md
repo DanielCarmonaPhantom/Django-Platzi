@@ -64,3 +64,14 @@ python manage.py runserver
 Esto nos dara como resultado la url de nuestro servidor local que se desplego en el puerto 8000.
 
 Para acceder solo escribe en tu navegador <a href='http://127.0.0.1:8000' target='_blank'>http://127.0.0.1:8000</a>
+
+
+## Crear un archivo para describir las tablas de bases de datos ORM
+```Bash
+python manage.py makemigrations polls
+````
+
+```Bash
+python manage.py migrate
+````
+
