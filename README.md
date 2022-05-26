@@ -75,3 +75,7 @@ python manage.py makemigrations polls
 python manage.py migrate
 ````
 
+## Consola interactiva
+```Bash
+python manage.py shell
+```
