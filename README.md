@@ -1,7 +1,13 @@
 # Proyecto del curso de Django de Platzi
 
+Contenido:
 
-## Instalación
+1. Instalación de paquetes para el proyecto
+2. Crear una App
+3. Crear el modelo ORM
+
+
+## 1. Instalación
 
 Crear una carpeta
 ```Bash
@@ -9,12 +15,6 @@ mkdir project
 ```
 
 ### Crear entorno virtual
-
-Instalaremos virtualenv
-```Bash
-pip install virtualenv
-```
-
 Ejecturar para crear nuestros archivos venv. 
 ```Bash
 python -m venv venv
@@ -40,7 +40,7 @@ pip install django
 Entramos a nuestra carpeta app y ejecutamos:
 
 ```Bash
-django-admin startproject myproject
+django-admin startproject myproject .
 ```
 
 Esto creara un proyecto de django que te creara varios archivos.
@@ -65,8 +65,18 @@ Esto nos dara como resultado la url de nuestro servidor local que se desplego en
 
 Para acceder solo escribe en tu navegador <a href='http://127.0.0.1:8000' target='_blank'>http://127.0.0.1:8000</a>
 
+## 2. Crear una App
 
-## Crear un archivo para describir las tablas de bases de datos ORM
+Como myproject es el proyecto principal, a este se le pueden agregar o crear apps, y para crear una app utilizamos
+
+```Bash
+django-admin startapp app1
+```
+
+Esto crea una app1 dentro de la carpeta
+
+
+## 3. Crear un archivo para describir las tablas de bases de datos ORM
 ```Bash
 python manage.py makemigrations polls
 ````
