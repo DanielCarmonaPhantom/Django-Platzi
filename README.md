@@ -5,7 +5,7 @@ Contenido:
 1. Instalación de paquetes para el proyecto
 2. Crear una App
 3. Crear el modelo ORM
-
+4. Vistas
 
 ## 1. Instalación
 
